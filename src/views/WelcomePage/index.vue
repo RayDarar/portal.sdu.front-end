@@ -19,9 +19,7 @@ import api from "@/api";
 
 @Component
 class WelcomePage extends Vue {
-  public created() {
-    api.token.validate("");
-  }
+  public created() {}
 }
 
 export default WelcomePage;
