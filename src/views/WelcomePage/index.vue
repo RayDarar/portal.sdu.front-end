@@ -19,7 +19,9 @@ import api from "@/api";
 
 @Component
 class WelcomePage extends Vue {
-  public created() {}
+  public created() {
+    
+  }
 }
 
 export default WelcomePage;

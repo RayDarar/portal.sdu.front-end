@@ -8,6 +8,6 @@ export interface IUser {
 export interface RootState {}
 
 export interface UserState {
-  token: string;
-  user?: IUser;
+  token: string | null;
+  user: IUser | null;
 }

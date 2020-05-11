@@ -6,12 +6,12 @@ Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
   {
-    path: "/sign-in",
-    component: () => import("@/views/SignInPage/index.vue"),
+    path: "/",
+    component: WelcomePage,
   },
   {
-    path: "/welcome",
-    component: WelcomePage,
+    path: "/sign-in",
+    component: () => import("@/views/SignInPage/index.vue"),
   },
 ];
 
